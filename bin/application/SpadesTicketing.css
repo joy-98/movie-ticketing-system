@@ -1,0 +1,385 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* General */
+.root{
+	-fx-background-color: whitesmoke;
+	-fx-font-family: "Tahoma";	
+}
+
+.label{
+	-fx-font-size: 27px;
+}
+
+.button{
+	-fx-background-color: firebrick;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	
+}
+
+.button:pressed:hover{
+	-fx-background-color: firebrick;
+}
+
+.button:hover{
+	-fx-background-color: indianred;
+}
+
+.combo-box{
+	-fx-color: lightcoral;
+	-fx-background-radius: 30px;
+	-fx-font-size: 14px;
+	-fx-border-color: transparent;
+}
+
+.combo-box:hover{
+	-fx-background-color: lightcoral;
+}
+
+.MTSHomepane{
+	-fx-background-color: firebrick;
+}
+
+
+/* Choosing Seats */
+
+.toggle-button{
+	-fx-background-image: url(/application/images/seat.png);
+	-fx-background-size: 80px 80px;
+	-fx-background-position: center;
+	-fx-text-fill: white; 
+	-fx-pref-height: 50px;
+	-fx-pref-width: 50px;
+	-fx-background-color: transparent;
+}
+
+.toggle-button:selected{
+	-fx-background-image: url(/application/images/seatselected.png);
+}
+
+.toggle-button:disabled{
+	-fx-background-image: url(/application/images/seatunavailable.png);
+	-fx-opacity:1.0;
+}
+
+.coupleToggleButton{
+	-fx-background-image: url(/application/images/coupleseat.png);
+	-fx-background-size: 80px 80px;
+	-fx-background-position: center;
+	-fx-text-fill: white; 
+	-fx-pref-height: 50px;
+	-fx-pref-width: 70px;
+	-fx-background-color: transparent;
+	
+}
+
+.coupleToggleButton:selected{
+	-fx-background-image: url(/application/images/coupleseatselected.png);
+}
+
+.coupleToggleButton:disabled{
+	-fx-background-image: url(/application/images/unavailablecoupleseat.png);
+	-fx-opacity:1.0;
+}
+
+.unavailableSeats{
+	-fx-background-image: url(/application/images/seatunavailable.png);
+	-fx-background-size: 80px 80px;
+	-fx-background-position: center;
+	-fx-text-fill: white; 
+	-fx-pref-height: 50px;
+	-fx-pref-width: 50px;
+	-fx-background-color: transparent;
+}
+
+
+.unavailableCoupleSeats{
+	-fx-background-image: url(/application/images/unavailablecoupleseat.png);
+	-fx-background-size: 80px 80px;
+	-fx-background-position: center;
+	-fx-text-fill: white; 
+	-fx-pref-height: 50px;
+	-fx-pref-width: 70px;
+	-fx-background-color: transparent;
+}
+
+.screen{
+	-fx-background-color: firebrick;
+	-fx-background-radius: 20px;
+	-fx-font-size: 35px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-pref-width: 500px;
+	-fx-alignment: center;
+}
+
+.seatslabel{
+	-fx-font-size: 20px;
+}
+
+
+/* Recommendation Page */
+#bottom,#firstColQ,#secondColQ{
+	
+		-fx-background-color: firebrick;
+
+}
+
+#questionPage{
+	
+		-fx-font: 20px "Tahoma";
+		-fx-background-color:floralwhite ;
+		-fx-text-fill:snow ;
+	
+}
+
+#question{
+	
+		-fx-fill:snow ;
+		-fx-text-fill: snow; 
+	
+}
+
+#forButton{
+	
+		-fx-background-color:floralwhite ;
+		
+}
+
+
+
+#filter{
+	    -fx-background-color: firebrick;
+	    -fx-text-fill: snow ;
+	    -fx-font: bold 18px "Tamaho";
+	    -fx-pref-height:40;
+	    -fx-pref-width: 90;
+	   
+}
+
+#filter:pressed:hover{
+		-fx-background-color: firebrick;
+}
+
+#filter:hover{
+	
+		-fx-background-color: indianred;
+	
+}
+
+#movieRight{
+	
+		-fx-background-color: ghostwhite;
+		-fx-fill:black ;
+		-fx-font: 15px "Tamaho";
+	
+}
+
+#movieTxt{
+	
+		-fx-font: 30px "Tamaho";
+		
+}
+
+
+/* Booking Page */
+
+#MovieText{
+	
+		-fx-font: 18px "Tahoma";
+		-fx-text-fill: black ;
+}
+
+#eComboTitle,#ticketTitle{
+	
+		-fx-background-color:firebrick;
+	
+}
+
+#eComboTitleD,#ticketTitleD{
+	
+
+		-fx-font: bold 17px "Tahoma";
+		-fx-fill:snow;
+	
+}
+
+#secondQuater,#thirdQuater{
+	
+		-fx-background-color: indianred;
+	
+}
+
+#combotxt,#tickettxt{
+	
+		-fx-font: 17px "Tahoma";
+		-fx-fill:snow;
+	
+}
+
+#operator{
+	
+		-fx-background-color: snow;
+		-fx-text-fill: firebrick;
+		-fx-font: 15px "Tahoma";
+	
+}
+
+#operator:pressed{
+	
+		-fx-background-color:grey;
+	
+}
+
+#yourOrder{
+	
+		-fx-fill:crimson ;
+		-fx-font: bold 20px "Tahoma";
+	
+}
+
+#subtotal{
+	
+		
+		-fx-font: 15px "Tahoma";
+		-fx-fill: black;
+	
+}
+
+#sublayout{
+	
+		-fx-background-color:indianred ;
+	
+}
+
+#sub{
+	
+		-fx-font: bold 15px "Tahoma";
+		-fx-fill:snow ;
+}
+
+#grandLayout{
+	
+		-fx-background-color: darkred;
+	
+}
+
+#grandtxt{
+	
+		-fx-fill:snow;
+		-fx-font:bold 20px "Tahoma";
+	
+}
+
+#grandtxt1{
+	
+		-fx-fill:snow;
+		-fx-font:bold 27px "Tahoma";
+	
+}
+/* Cinemas and Contact Us */
+
+.CinemaName{
+	-fx-font-size: 44px;
+	-fx-font-weight: bold;
+	-fx-text-fill: firebrick;
+}
+
+
+
+/* Login and Registration */
+
+.back{
+	-fx-background-color: whitesmoke;
+}
+
+.back:hover{
+	-fx-background-color: white;
+}
+
+.back:pressed:hover{
+	-fx-background-color: whitesmoke;
+}
+
+
+
+/* Choosing Showtime Page */
+
+#showtimelbl{
+	-fx-font-size: 27px;
+}
+
+#showtimecb{
+	-fx-font-size: 27px;
+	-fx-pref-width: 250;
+	
+}
+
+
+/* Payment Page */
+#paymentTitle{
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+
+#messagelbl{
+	-fx-text-fill: red;
+	-fx-font-size: 15px;
+}
+
+#paymentTF{
+	-fx-font-size: 23px;
+	-fx-pref-width: 350;
+}
+
+/* Movies Page */
+#rechyperlink{
+	-fx-font-size: 30;
+	-fx-text-fill: firebrick;
+}
+
+#tabpane{
+	-fx-tab-min-height: 2em;
+	-fx-tab-max-height: 2em;
+	
+	-fx-tab-min-width: 15em;
+	-fx-tab-max-width: 15em;
+	
+}
+
+.tab{
+	-fx-background-color: firebrick;
+	-fx-background-insets:0.0;
+	-fx-text-base-color: white;
+	-fx-font-size: 20;
+	
+}
+
+.tab:hover{
+	-fx-background-color:indianred;
+}
+
+.tab:selected{
+	-fx-background-color: whitesmoke;
+	-fx-text-base-color: firebrick;
+}
+
+/* User Profile */
+#textfieldinfo{
+	-fx-pref-width: 350;
+	-fx-font-size: 20;
+	
+}
+
+#changePass{
+	-fx-background-image:null;
+	-fx-background-size: null;
+	-fx-background-position: left;
+	-fx-text-fill: firebrick; 
+	-fx-font-size: 25;
+	-fx-pref-height: 60px;
+	-fx-pref-width: 230px;
+	-fx-background-color: null;
+}

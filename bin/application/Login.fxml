@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: whitesmoke;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane layoutX="968.0" prefHeight="1100.0" prefWidth="961.0" style="-fx-background-color: firebrick;">
+         <children>
+            <TextField fx:id="txtusername" layoutX="196.0" layoutY="529.0" prefHeight="54.0" prefWidth="626.0" promptText="Email" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: firebrick; -fx-border-color: white; -fx-text-fill: white;">
+               <font>
+                  <Font name="Tahoma" size="24.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtpassword" layoutX="194.0" layoutY="691.0" prefHeight="48.0" prefWidth="626.0" promptText="Password" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: firebrick; -fx-text-fill: white;">
+               <font>
+                  <Font name="Tahoma" size="24.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="194.0" layoutY="851.0" mnemonicParsing="false" onAction="#Login" prefHeight="51.0" prefWidth="626.0" stylesheets="@SpadesTicketing.css" text="Login" textFill="#f0eeee">
+               <font>
+                  <Font name="Tahoma" size="24.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="41.0" fitWidth="38.0" layoutX="151.0" layoutY="542.0">
+               <image>
+                  <Image url="@images/U1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="254.0" fitWidth="322.0" layoutX="346.0" layoutY="126.0" preserveRatio="true">
+               <image>
+                  <Image url="@images/complete%20user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="38.0" layoutX="151.0" layoutY="694.0">
+               <image>
+                  <Image url="@images/real%20key.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="276.0" layoutY="401.0" prefHeight="54.0" prefWidth="461.0" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Tahoma" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="830.0" mnemonicParsing="false" onAction="#Exit" prefHeight="69.0" prefWidth="131.0" stylesheets="@SpadesTicketing.css" text="Exit" textFill="#f0eeee">
+               <font>
+                  <Font name="Tahoma" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="353.0" fitWidth="373.0" layoutX="334.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spade.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="129.0" layoutY="451.0" prefHeight="98.0" prefWidth="704.0" text=" Welcome to Spades Theater" textFill="#160101">
+         <font>
+            <Font name="Tahoma" size="55.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="595.0" text="Don't have an account yet? Sign up now " textFill="#110101">
+         <font>
+            <Font name="Tahoma" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="397.0" layoutY="724.0" mnemonicParsing="false" onAction="#Signup" prefHeight="54.0" prefWidth="167.0" stylesheets="@SpadesTicketing.css" text="Signup" textFill="WHITE">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="503.0" layoutY="858.0" text="HELLO" />
+   </children>
+</AnchorPane>
